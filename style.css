@@ -1,0 +1,62 @@
+
+body{
+    background-color: rgb(222, 215, 250);
+    font-size: 1.7rem;
+}
+
+#main-container{
+    height: auto;
+    width: 40%;
+    margin: auto;
+}
+
+#sub-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#btn{
+    margin-top:10%;
+    margin-left: 1.4rem;
+    height: 2rem;
+    width:7rem ;
+    border: 2px solid rgb(160, 4, 93);
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: white;
+}
+
+#btn:hover{
+    background-color:rgb(160, 4, 93) ;
+    border: 3px solid black;
+    color: white;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+label{
+    font-weight: bold;
+    color: rgb(160, 4, 93);
+}
+
+#input-date{
+    height: 2rem;
+    width: 10rem;
+    border: 2px solid rgb(160, 4, 93);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+#output-box{
+    font-size: 2rem;
+    margin-top: 5rem;
+    color: black;
+    font-weight: bold;
+}
